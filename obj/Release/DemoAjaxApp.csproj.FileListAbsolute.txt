@@ -1,5 +1,0 @@
-E:\e\CodeProjectUpload\DemoAjaxApp\DemoAjaxApp\bin\DemoAjaxApp.dll
-E:\e\CodeProjectUpload\DemoAjaxApp\DemoAjaxApp\bin\DemoAjaxApp.pdb
-E:\e\CodeProjectUpload\DemoAjaxApp\DemoAjaxApp\obj\Release\DemoAjaxApp.csprojResolveAssemblyReference.cache
-E:\e\CodeProjectUpload\DemoAjaxApp\DemoAjaxApp\obj\Release\DemoAjaxApp.dll
-E:\e\CodeProjectUpload\DemoAjaxApp\DemoAjaxApp\obj\Release\DemoAjaxApp.pdb
