@@ -111,7 +111,7 @@ namespace DemoAjaxApp
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Generate.Scripts(this);
+            Scripts.Add(this);
         }
 
         protected void b1_Click(object sender, EventArgs e)
