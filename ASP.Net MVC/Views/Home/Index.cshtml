@@ -1,0 +1,16 @@
+﻿@using Ajax.NET
+@{
+    ViewBag.Title = "Home Page";
+}
+@Html.AjaxScriptsFor(this.ViewContext.Controller)
+<script type="text/javascript">
+    function TestAjax() {
+        HomeController.AjaxSample().then((result) => alert(result));
+    }
+</script>
+<div class="jumbotron">
+    <button onclick="TestAjax()">Test Ajax</button>
+</div>
+
+<div class="row">
+</div>
