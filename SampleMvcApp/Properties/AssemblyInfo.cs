@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DemoMvcAjax")]
+[assembly: AssemblyTitle("SampleMvcApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DemoMvcAjax")]
+[assembly: AssemblyProduct("SampleMvcApp")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4f0f268f-9b7e-47e8-ad3d-eeb7ae29aefd")]
+[assembly: Guid("466adab2-afca-4b1a-9c49-3ff56e2cff36")]
 
 // Version information for an assembly consists of the following four values:
 //
