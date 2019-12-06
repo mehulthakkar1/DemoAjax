@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAjaxApp", "ASP.Net\DemoAjaxApp.csproj", "{FB495629-BA67-45E0-AF0F-C674AC46AB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMvcAjax", "ASP.Net MVC\DemoMvcAjax.csproj", "{C1CD505F-A9CD-40BB-9682-C028C3C9669D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvcApp", "SampleMvcApp\SampleMvcApp.csproj", "{CE8D8D07-A3D3-4B1F-A84D-8B267A1F6B34}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{FB495629-BA67-45E0-AF0F-C674AC46AB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB495629-BA67-45E0-AF0F-C674AC46AB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB495629-BA67-45E0-AF0F-C674AC46AB1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1CD505F-A9CD-40BB-9682-C028C3C9669D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1CD505F-A9CD-40BB-9682-C028C3C9669D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1CD505F-A9CD-40BB-9682-C028C3C9669D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1CD505F-A9CD-40BB-9682-C028C3C9669D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CE8D8D07-A3D3-4B1F-A84D-8B267A1F6B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CE8D8D07-A3D3-4B1F-A84D-8B267A1F6B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE8D8D07-A3D3-4B1F-A84D-8B267A1F6B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
