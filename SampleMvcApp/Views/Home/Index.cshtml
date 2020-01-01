@@ -3,11 +3,33 @@
     ViewBag.Title = "Home Page";
 }
 @Html.AjaxScriptsFor(this.ViewContext.Controller)
+<script type="text/javascript" src="~/js/apis/TestController.js"></script>
 <script type="text/javascript">
     function TestAjax() {
         HomeController.AjaxSample().then((result) => alert(result));
     }
+
+    function TestGetAll() {
+        TestController.Get().then((value) => alert(value));
+    }
+    function TestGet(id) {
+        TestController.GetByid(id).then((value) => alert(value));
+    }
+    function TestPost() {
+        TestController.Post("tst").then((value) => alert(value));
+    }
+    function TestPut() {
+        TestController.Put(1, "aaaa").then((value) => alert(value));
+    }
+    function TestDelete() {
+        TestController.Delete(1).then((value) => alert(value));
+    }
 </script>
 <div class="row">
     <button onclick="TestAjax()">Test Ajax</button>
+    <button onclick="TestGetAll()">Test GetAll</button>
+    <button onclick="TestGet(1)">Test Get</button>
+    <button onclick="TestPost()">Test Post</button>
+    <button onclick="TestPut()">Test Put</button>
+    <button onclick="TestDelete()">Test Delete</button>
 </div>
